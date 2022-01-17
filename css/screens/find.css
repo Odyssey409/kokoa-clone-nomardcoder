@@ -9,25 +9,6 @@
   bottom: 50px;
 }
 
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icons__icon i {
-  font-size: 35px;
-}
-
-.find-icons__icon span {
-  margin-top: 18px;
-}
-
 .recommended-friends {
   margin: 25px 0px;
   padding: 25px 0px;
@@ -129,4 +110,9 @@ recommended-friends__title {
 
 .open-post__heart-count span {
   margin-left: 3px;
+}
+
+.user-component__subtitle i {
+  color: tomato;
+  margin-left: 4px;
 }
